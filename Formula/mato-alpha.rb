@@ -1,27 +1,27 @@
 class MatoAlpha < Formula
   desc "Multi-Agent Terminal Office (alpha)"
   homepage "https://github.com/mr-kelly/mato"
-  version "0.5.1-alpha.17"
+  version "0.5.1-alpha.18"
   license "MIT"
   conflicts_with "mato", because: "both install the same binary name: mato"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mr-kelly/mato/releases/download/v0.5.1-alpha.17/mato-macos-aarch64-v0.5.1-alpha.17.tar.gz"
-      sha256 "2b4af19c6e7c67d2ffb64d058460043c309f35800bc4900f49c15f4ce2113677"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.5.1-alpha.18/mato-macos-aarch64-v0.5.1-alpha.18.tar.gz"
+      sha256 "38b902aa36b8e5639499226f64be85943b32abc96f5f65abd5c8cb9329c2c2f0"
     else
-      url "https://github.com/mr-kelly/mato/releases/download/v0.5.1-alpha.17/mato-macos-x86_64-v0.5.1-alpha.17.tar.gz"
-      sha256 "ef3e077a2b2748d1803c1179c52e4de3cf44996f61f3510dc3e64127a749f70d"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.5.1-alpha.18/mato-macos-x86_64-v0.5.1-alpha.18.tar.gz"
+      sha256 "21ddd48ad3d7924d6d2e59c9407b5be88b5fd5517c989763f23805a4efff6d6f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mr-kelly/mato/releases/download/v0.5.1-alpha.17/mato-linux-aarch64-v0.5.1-alpha.17.tar.gz"
-      sha256 "9f16e94b4ec8e386023195d9187b3bdd0746886434d85798c4691bd7e712b5fd"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.5.1-alpha.18/mato-linux-aarch64-v0.5.1-alpha.18.tar.gz"
+      sha256 "ddaf412e4de9e9eef544ce6aacf69487aa15da324e739239cfbf1e8ecb874288"
     else
-      url "https://github.com/mr-kelly/mato/releases/download/v0.5.1-alpha.17/mato-linux-x86_64-v0.5.1-alpha.17.tar.gz"
-      sha256 "0744fdf40cdfdb26e03b8980875e2c1405a84b02968373515c24212a7eccd2ce"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.5.1-alpha.18/mato-linux-x86_64-v0.5.1-alpha.18.tar.gz"
+      sha256 "d75f42733bf6e0c1aec8ffb7b5e5f2a76b71805a7e3f9af45b44dca35283caae"
     end
   end
 
