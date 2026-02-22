@@ -1,27 +1,27 @@
 class MatoAlpha < Formula
   desc "Multi-Agent Terminal Office (alpha)"
   homepage "https://github.com/mr-kelly/mato"
-  version "0.4.0-alpha.7"
+  version "0.5.0-alpha.8"
   license "MIT"
   conflicts_with "mato", because: "both install the same binary name: mato"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mr-kelly/mato/releases/download/v0.4.0-alpha.7/mato-macos-aarch64-v0.4.0-alpha.7.tar.gz"
-      sha256 "ecc4d934177159ae64d53ecf10327fbbc5750a920b2b3eaa4b07d9782efc928c"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.5.0-alpha.8/mato-macos-aarch64-v0.5.0-alpha.8.tar.gz"
+      sha256 "46a137a020e63af3e6449fb03e1dbfbef4a60d6bfb4e558d04c536b5a63ac47e"
     else
-      url "https://github.com/mr-kelly/mato/releases/download/v0.4.0-alpha.7/mato-macos-x86_64-v0.4.0-alpha.7.tar.gz"
-      sha256 "d12fe79c4a5d1b5568fe0bd79dad1853e1a9b5e75fb7b52806c94f654c710b05"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.5.0-alpha.8/mato-macos-x86_64-v0.5.0-alpha.8.tar.gz"
+      sha256 "0a70be242a60306858f59958b8209378285fcda8cd25bd6dbaf7c659d2a2cad4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mr-kelly/mato/releases/download/v0.4.0-alpha.7/mato-linux-aarch64-v0.4.0-alpha.7.tar.gz"
-      sha256 "6c9800b79e20a82b15dc85a8b84c755da3aa62de50c8006af7624a1ae8a14e92"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.5.0-alpha.8/mato-linux-aarch64-v0.5.0-alpha.8.tar.gz"
+      sha256 "93d2f816856e73fa31f811db30ae01222720cd755ae28e17081f20c7460edfc3"
     else
-      url "https://github.com/mr-kelly/mato/releases/download/v0.4.0-alpha.7/mato-linux-x86_64-v0.4.0-alpha.7.tar.gz"
-      sha256 "86e6eecf2e82e872f8d914ddbe43b5b7b4eed88255d218de2163ffc2f4199fc3"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.5.0-alpha.8/mato-linux-x86_64-v0.5.0-alpha.8.tar.gz"
+      sha256 "f673fc857131cf6f10397331d5a57c8cbe822e444d5c3419a25e94fcf895c546"
     end
   end
 
