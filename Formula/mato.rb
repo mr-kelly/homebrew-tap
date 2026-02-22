@@ -2,6 +2,7 @@ class Mato < Formula
   desc "Multi-Agent Terminal Office"
   homepage "https://github.com/mr-kelly/mato"
   license "MIT"
+  conflicts_with "mato-alpha", because: "both install the same binary name: mato"
 
   on_macos do
     if Hardware::CPU.arm?

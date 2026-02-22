@@ -3,6 +3,7 @@ class MatoAlpha < Formula
   homepage "https://github.com/mr-kelly/mato"
   version "0.4.0-alpha.4"
   license "MIT"
+  conflicts_with "mato", because: "both install the same binary name: mato"
 
   on_macos do
     if Hardware::CPU.arm?
