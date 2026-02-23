@@ -1,27 +1,27 @@
 class Mato < Formula
   desc "Multi-Agent Terminal Office"
   homepage "https://github.com/mr-kelly/mato"
-  version "0.9.2"
+  version "0.9.3"
   license "MIT"
   conflicts_with "mato-alpha", because: "both install the same binary name: mato"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mr-kelly/mato/releases/download/v0.9.2/mato-macos-aarch64-v0.9.2.tar.gz"
-      sha256 "d20e41711397887ab9f706659bd079e7a7f9466bf6d03bd98b7345b2d9d865ae"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.9.3/mato-macos-aarch64-v0.9.3.tar.gz"
+      sha256 "c8fd7ac40f1b5b76596d8d8e05ae0ae67f1bc57ec1a03202092d4841c38e7936"
     else
-      url "https://github.com/mr-kelly/mato/releases/download/v0.9.2/mato-macos-x86_64-v0.9.2.tar.gz"
-      sha256 "fb7b00c9ed87c99e12e7a8f28b39dd1effa8108d63806a3cf50960b434bd9103"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.9.3/mato-macos-x86_64-v0.9.3.tar.gz"
+      sha256 "79c3b0f34f2bd8aaa632ea48f7a46561a31af07a81f17791461519174632580f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mr-kelly/mato/releases/download/v0.9.2/mato-linux-aarch64-v0.9.2.tar.gz"
-      sha256 "a8da57f62db6504804ee7a904bb01c00082ce1c8fd97626e620fb32c0247c0a6"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.9.3/mato-linux-aarch64-v0.9.3.tar.gz"
+      sha256 "8f320e2d49a19be9d87a3f52bb57546eee759fbf59f27704a50b300fb8c2d53e"
     else
-      url "https://github.com/mr-kelly/mato/releases/download/v0.9.2/mato-linux-x86_64-v0.9.2.tar.gz"
-      sha256 "ac80cd26aea843f210ac0f7a25e4ce825e935962a60d849e9634db7e3bdda278"
+      url "https://github.com/mr-kelly/mato/releases/download/v0.9.3/mato-linux-x86_64-v0.9.3.tar.gz"
+      sha256 "56c4759f06e49649aa9841f09eeb1cb3f4bcbcbc97205cc873ea3c36ae9aef25"
     end
   end
 
