@@ -1,26 +1,26 @@
 class Freecode < Formula
   desc "Minimal autonomous coding agent — auto-selects best free model via OpenRouter"
   homepage "https://github.com/mr-kelly/freecode"
-  version "0.9.2"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mr-kelly/freecode/releases/download/v0.9.2/freecode-macos-aarch64-v0.9.2.tar.gz"
-      sha256 "bd3b4500b32886a6363c63857e277c7e34ce05172e736e3f333154acaaccf93b"
+      url "https://github.com/mr-kelly/freecode/releases/download/v0.10.0/freecode-macos-aarch64-v0.10.0.tar.gz"
+      sha256 "3c702ae914067c9b99e95649fbf2b311de8bbdb1fac015d18decad2bc876ca06"
     else
-      url "https://github.com/mr-kelly/freecode/releases/download/v0.9.2/freecode-macos-x86_64-v0.9.2.tar.gz"
-      sha256 "213106039df28bd4e0a81ccdb4e53f2ea47a6f60f9057d71c45ffd2087d370d9"
+      url "https://github.com/mr-kelly/freecode/releases/download/v0.10.0/freecode-macos-x86_64-v0.10.0.tar.gz"
+      sha256 "9a4da41b0a6e21f578c193d520f6e1cb0c937983db7b2f57302ffab342ea0fa7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mr-kelly/freecode/releases/download/v0.9.2/freecode-linux-aarch64-v0.9.2.tar.gz"
-      sha256 "e475760d4c16acb4ba744d4ae18bfc1fec50d830d0b740ef0ee0c8a05bd3baaf"
+      url "https://github.com/mr-kelly/freecode/releases/download/v0.10.0/freecode-linux-aarch64-v0.10.0.tar.gz"
+      sha256 "ac7421d9feceb85c3884dbcc9b4485ea32424a02e574a3c8b7a9daee927f52dd"
     else
-      url "https://github.com/mr-kelly/freecode/releases/download/v0.9.2/freecode-linux-x86_64-v0.9.2.tar.gz"
-      sha256 "a7b519d7dd860f8f40f42a381de8f90c5e01bb2b7ff2f2c7fb243c42215a0365"
+      url "https://github.com/mr-kelly/freecode/releases/download/v0.10.0/freecode-linux-x86_64-v0.10.0.tar.gz"
+      sha256 "870e31a4e8b724a327c4ec1c95aad9daa6e0208c5131a38b1f33af1fc1871f60"
     end
   end
 
